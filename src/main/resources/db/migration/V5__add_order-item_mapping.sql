@@ -1,0 +1,2 @@
+ALTER TABLE item
+ADD COLUMN order_id INT(6);

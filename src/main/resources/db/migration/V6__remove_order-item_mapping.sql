@@ -1,0 +1,2 @@
+ALTER TABLE item
+DROP COLUMN order_id;

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/per_rem_bud?useSSL=false&serverTimezone=UTC
+    username: per-rem-bud
+    password: per-rem-bud
+    driver-class-name: com.mysql.jdbc.Driver
+
+  flyway:
+    locations: classpath:/db/migration
+
